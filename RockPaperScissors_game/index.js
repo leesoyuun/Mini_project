@@ -1,11 +1,12 @@
 const imogeShow = ['✌','✊','🖐'];
+const imogeShowin = document.getElementById("ImogeShow");
+console.log(imogeShowin)
 let index = 0;
 function Random() {
-    let image = imogeShow[index++];
+    imogeShowin.innerText = `${imogeShow[index++]}`;
     if(index == imogeShow.length){
         index = 0;
     }
-    console.log(image);
 }
 
 let randomImoge = setInterval(Random,1000);
