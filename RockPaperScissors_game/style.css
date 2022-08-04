@@ -1,4 +1,22 @@
 *{
-
+    width: 50%;
+    margin: 0 auto;
     background-color: #FDB22a;
+}
+
+#ImogeShow{
+    margin-top: 10vh;
+    font-size: 200px;
+}
+
+#userPick{ 
+    display: flex;
+}
+#userPick button{ 
+    flex: 1;
+    font-size: 100px;
+    border: none;
+    margin-right: 70%;
+    
+    
 }
