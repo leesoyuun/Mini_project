@@ -1,22 +1,22 @@
 *{
-    width: 50%;
     margin: 0 auto;
     background-color: #FDB22a;
 }
 
 #ImogeShow{
+    text-align: center;
     margin-top: 10vh;
     font-size: 200px;
 }
 
 #userPick{ 
     display: flex;
+    width: 500px;
 }
 #userPick button{ 
-    flex: 1;
+    flex:1;
+    float: left;
     font-size: 100px;
     border: none;
-    margin-right: 70%;
-    
-    
+
 }
