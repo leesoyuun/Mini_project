@@ -22,42 +22,41 @@ function click() {
 function scissorclick(){
     click();
     if(imogeShowin.innerText == "✌"){
-        console.log("같다.");
+        alert("같다.");
     }
     else if(imogeShowin.innerText == "✊" ){
-        console.log("졌다.");
+        alert("졌다.");
     }
     else{
-        console.log("이겼다.")
+        alert("이겼다.")
     }
 
 }
 function paperclick(){
     click();
     if(imogeShowin.innerText == "✌"){
-        console.log("졌다.");
+        alert("졌다.");
     }
     else if(imogeShowin.innerText == "✊" ){
-        console.log("이겼다.");
+        alert("이겼다.");
     }
     else{
-        console.log("비겼다.")
+        alert("비겼다.")
     }
 
 }
 function rockclick(){
     click();
     if(imogeShowin.innerText == "✌"){
-        console.log("이겼다.");
+        alert("이겼다.");
     }
     else if(imogeShowin.innerText == "✊" ){
-        console.log("비겼다.");
+        alert("비겼다.");
     }
     else{
-        console.log("졌다.")
+        alert("졌다.")
     }
 }
 function Re(){
     setInterval(Random,1000);
-    console.log('다시')
 }
