@@ -20,7 +20,7 @@ function click() {
     clearInterval(randomImoge);
 }
 function scissorclick(){
-    click();
+    click();   
     if(imogeShowin.innerText == "✌"){
         alert("같다.");
     }
@@ -29,7 +29,9 @@ function scissorclick(){
     }
     else{
         alert("이겼다.")
+        
     }
+    
 
 }
 function paperclick(){
@@ -43,7 +45,7 @@ function paperclick(){
     else{
         alert("비겼다.")
     }
-
+    
 }
 function rockclick(){
     click();
@@ -56,7 +58,9 @@ function rockclick(){
     else{
         alert("졌다.")
     }
+        
 }
+
 function Re(){
-    setInterval(Random,1000);
+    randomImoge = setInterval(Random,1000);
 }
