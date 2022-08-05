@@ -3,6 +3,7 @@ const imogeShowin = document.getElementById("ImogeShow");
 const scissorsBtn = document.getElementById("scissors").addEventListener('click',scissorclick);
 const paperBtn = document.getElementById("paper").addEventListener('click',paperclick);
 const rockBtn = document.getElementById("rock").addEventListener('click',rockclick);
+const reBtn = document.getElementById("re").addEventListener('click',Re);
 
 let index = 0;
 function Random() {
@@ -55,4 +56,8 @@ function rockclick(){
     else{
         console.log("졌다.")
     }
+}
+function Re(){
+    setInterval(Random,1000);
+    console.log('다시')
 }
