@@ -31,11 +31,11 @@ function scissorclick(){
     }
     else if(imogeShowin.innerText == "✊" ){
         alert("졌다.");
-        computerScore.innerText = `${++comScore}`;
+        computerScore.innerText = `${'컴퓨터 점수 : ' + ++comScore}`;
     }
     else{
         alert("이겼다.");
-        PeopleScore.innerText = `${++PepScore}`;
+        PeopleScore.innerText = `${'내점수 : ' + ++PepScore}`;
         
     }
     
@@ -45,11 +45,11 @@ function paperclick(){
     click();
     if(imogeShowin.innerText == "✌"){
         alert("졌다.");
-        computerScore.innerText = `${++comScore}`;
+        computerScore.innerText = `${'컴퓨터 점수 : ' + ++comScore}`;
     }
     else if(imogeShowin.innerText == "✊" ){
         alert("이겼다.");
-        PeopleScore.innerText = `${++PepScore}`;
+        PeopleScore.innerText = `${'내점수 : ' + ++PepScore}`;
     }
     else{
         alert("비겼다. 다시!")
@@ -60,14 +60,14 @@ function rockclick(){
     click();
     if(imogeShowin.innerText == "✌"){
         alert("이겼다.");
-        PeopleScore.innerText = `${++PepScore}`;
+        PeopleScore.innerText = `${'내점수 : ' + ++PepScore}`;
     }
     else if(imogeShowin.innerText == "✊" ){
         alert("비겼다. 다시!");
     }
     else{
         alert("졌다.");
-        computerScore.innerText = `${++comScore}`;
+        computerScore.innerText = `${'컴퓨터 점수 : ' + ++comScore}`;
     }
         
 }
