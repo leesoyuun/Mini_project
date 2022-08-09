@@ -1,11 +1,11 @@
-let wordIn = document.getElementById("letter");
-let word = Array(16);
+let wordIn = document.getElementById("inner_text");
+let putword = wordIn.getElementsByTagName("td")
 
-wordIn.innerText = word.fill('뚧');
 
-console.log(word);
-
-function random(){
-    let randomNum = Math.floor(Math.random())*16;
-
+for(let i = 0 ; i <putword.length ;i++){
+    putword[i].innerHTML = '뚧'
 }
+
+
+
+
