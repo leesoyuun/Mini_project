@@ -3,8 +3,6 @@ let putword = wordIn.getElementsByTagName("td");
 let randomNum = Math.floor(Math.random() * 10)  + 6;
 
 
-
-
 for(let i = 0 ; i <putword.length ;i++){
     if(i == randomNum){
         putword[i].innerHTML = '뜗';

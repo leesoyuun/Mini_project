@@ -1,0 +1,22 @@
+*{
+    background-color: black;
+    margin: 0 auto;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.title{
+    text-align: center;
+    color: #FFF;
+    font-size: 3px;
+    margin: 10px;
+}
+
+#inner_text tr td{
+    font-size: 13px;
+    text-align: center;
+    margin-top: 10px;
+    width: 10vw;
+    height: 17vh;
+    color: #FFF;
+    background-color:  rgb(152, 167, 220);
+    border-radius: 5px;
+}
