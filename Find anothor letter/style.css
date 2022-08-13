@@ -9,7 +9,10 @@
     font-size: 3px;
     margin: 10px;
 }
-
+.time{
+    color: #FFF;
+    text-align: center;
+}
 #inner_text tr td{
     font-size: 13px;
     text-align: center;
