@@ -11,14 +11,18 @@ let x = setInterval(function(){
     if(sec<0){
         clearInterval(x);
         time.innerHTML = "시간초과!!";
+
 }
-},1000)
+},1000);
+
 for(let i = 0 ; i <putword.length ;i++){
     if(i == randomNum){
         putword[i].innerHTML = '뜗';
         putword[i].addEventListener('click',()=>{
             alert('👍성공')
-        })
+            clearInterval(x);
+        });
+        
     }
     else{
         putword[i].innerHTML = '뚧'
@@ -27,4 +31,3 @@ for(let i = 0 ; i <putword.length ;i++){
         })
     }
 }
-
