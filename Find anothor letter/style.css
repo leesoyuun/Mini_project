@@ -23,3 +23,11 @@
     background-color:  rgb(152, 167, 220);
     border-radius: 5px;
 }
+.btn{
+    background-color: #FFF;
+    font-size: 0.4rem;
+    border: 1px solid white;
+    width: 8%;
+    border-radius: 5%;
+    text-align: center;
+}
