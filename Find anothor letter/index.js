@@ -3,7 +3,7 @@ let putword = wordIn.getElementsByTagName("td");
 let next = document.getElementsByClassName("btn")[0].addEventListener('click',nextstage());
 
 let randomNum = Math.floor(Math.random() * 3);
-console.log(randomNum)
+
 let time = document.getElementsByClassName("time")[0];
 let sec = "15"
 
@@ -35,8 +35,8 @@ for(let i = 0 ; i <putword.length ;i++){
     }
 }
 
-function nextstage() {
-    let addCell = wordIn.insertCell(0);
+// function nextstage() {
+//     let addCell = wordIn.insertCell(0);
 
-    addCell.innerHTML = '뚧'
-}
+//     addCell.innerHTML = '뚧'
+// }
