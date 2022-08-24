@@ -35,8 +35,8 @@ for(let i = 0 ; i <putword.length ;i++){
     }
 }
 
-// function nextstage() {
-//     let addCell = wordIn.insertCell(0);
+    function nextstage() {
+       let addCell = wordIn.insertCell(0);
 
-//     addCell.innerHTML = '뚧'
-// }
+   addCell.innerHTML = '뚧'
+ }
