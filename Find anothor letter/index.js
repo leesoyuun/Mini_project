@@ -6,7 +6,7 @@ let randomNum = Math.floor(Math.random() * (putword.length));
 let time = document.getElementsByClassName("time")[0];
 
 let sec = "15"
-window.onload = startGame();
+
 
 function startGame(){
     let x = setInterval(function(){
@@ -41,8 +41,8 @@ function startGame(){
 
 
 function addRow(){
-    let newRow = wordIn.insertRow(0);
-    let newCell = newRow.insertCell(0);
+    let newRow = wordIn.insertRow();
+    let newCell = newRow.insertCell();
     let copy = wordIn.rows[2].cells[0].cloneNode(true);
 
     newCell.innerHTML = copy.innerHTML;
